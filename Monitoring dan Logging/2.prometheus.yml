@@ -1,0 +1,12 @@
+# konfigurasi prometheus untuk memantau model telco churn
+# pakai dengan: prometheus --config.file=2.prometheus.yml
+
+global:
+  scrape_interval: 5s      # ambil metrik tiap 5 detik biar grafik cepat bergerak
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: "model_telco_churn"
+    static_configs:
+      # alamat exporter (file 3.prometheus_exporter.py)
+      - targets: ["localhost:8000"]

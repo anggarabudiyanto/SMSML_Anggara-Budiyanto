@@ -1,0 +1,6 @@
+Tautan DagsHub :
+https://dagshub.com/anggarabudiyantooo-hub/Eksperimen_SML_Anggara-Budiyanto
+
+Catatan:
+- Repo DagsHub dibuat dari dashboard DagsHub: Create -> New Repo -> Connect a repo -> pilih repo GitHub di atas.
+- Logging online dijalankan lewat modelling_tuning.py (ubah PAKAI_DAGSHUB = True).
